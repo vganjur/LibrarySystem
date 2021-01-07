@@ -28,6 +28,7 @@ namespace ElibraryManagement
                     getUserBookData();
                     if(!IsPostBack)
                     {
+                        // Remember to get personal details:
                         getUserPersonalDetails();
                     }
                 }
